@@ -14,6 +14,6 @@ public class runner
 //        ArrayList.start();
 //        EnhancedForLoops.start();
 //        InputWithScanner.start();
-        InheritanceTask.start();
+//        InheritanceTask.start();
     }
 }
