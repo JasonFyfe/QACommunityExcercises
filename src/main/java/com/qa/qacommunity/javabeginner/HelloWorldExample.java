@@ -13,7 +13,7 @@ public class HelloWorldExample
         System.out.println("End of Hello World Example");
     }
 
-    private static void taskOne() {
+    protected static void taskOne() {
         System.out.println("--- Task One ---");
         System.out.println("Hello World!");
     }
@@ -33,4 +33,6 @@ public class HelloWorldExample
     private static String taskFour() {
         return "Hello World!";
     }
+
+    protected static String testTask(String message) { return message; }
 }
